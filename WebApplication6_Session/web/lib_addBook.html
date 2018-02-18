@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Add Book</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style type="text/css">
+            input{
+                margin-bottom: 5px;
+                margin-top : 5px;
+                margin-left: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="lib_addBook" method="post" style="margin-left: 100px ; margin-top: 150px">
+            Book Id &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: <input type="text" name="bid" placeholder="Enter Book Id"><br>
+            Book Name&nbsp;&nbsp;&nbsp;&nbsp; : <input type="text" name ="bname" placeholder="Enter name"><br>
+            Author&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : <input type ="text" name="author" placeholder="Enter Author"><br>
+            Total Quantity : <input type="number" name="totqty" placeholder="Enter Quantity"><br><br>
+            <input type="submit" name="add" value="Add Book" style="margin-left: 60px">
+        </form>
+    </body>
+</html>
